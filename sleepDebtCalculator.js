@@ -1,28 +1,20 @@
 const getSleepHours = day => {
-  ('day'.toLowerCase());
+  (day.toLowerCase());
   switch(day) {
     case 'monday':
       return 10
-      break;
     case 'tuesday':
       return 10
-      break;
     case 'wednesday':
       return 10
-      break;
     case 'thursday':
       return 10
-      break;
     case 'friday':
       return 13
-      break; 
     case 'saturday':
       return 13
-      break;
     case 'sunday':
       return 10
-      break;
-
     default: 
       return 'Error. Enter a day of the week.'
   }
