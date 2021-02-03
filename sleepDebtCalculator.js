@@ -1,5 +1,5 @@
 const getSleepHours = day => {
-  switch(day) {
+  switch(day.toLowerCase()) {
     case 'monday':
       return 10;
     case 'tuesday':
